@@ -1,6 +1,7 @@
 .rmfTitle {
     background-color: rgba( 204, 204, 204, .75);
     border-radius: 7px;
+    box-sizing: content-box;
 }
 
 a.topnumber {
@@ -16,6 +17,9 @@ a.topnumber {
 }
 
 .buttonMargin {
+    display: block;
+    width: 100%;
+    text-align: center;
     margin: 5px;
 }
 
